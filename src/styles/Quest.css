@@ -1,0 +1,73 @@
+.questField{
+    margin: 40px auto;
+    width: max-content;
+    color: #293264;
+}
+
+.questField .quizBtn, .questField .quizStartBtn{
+    background-color: #6771a2;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.questField .quizStartBtn{
+    padding: 12px 40px;
+}
+
+.questField .quizBtn:hover, .questField .quizStartBtn:hover {
+    background-color: #4D5B9E;
+    font-size: 18px;
+    padding: 12px 25px;
+    transition: .3s;
+}
+
+.questField .quizStartBtn:hover{
+    padding: 12px 30px;
+    background-color: #4f598a;
+}
+
+.aQuest{
+    border-bottom: 1px solid #4D5B9E;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.aQuest h3{
+    font-weight: 600;
+    font-size: 20px;
+    width: 90%;
+}
+
+.aQuest label{
+    border: 2px solid #7e86b0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 5px 10px 5px 0;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+}
+
+.aQuest label:hover{
+    transition: .3s;
+    background-color: #adb4d9d5 !important;
+    /* background-color: #3e9e265e !important; */
+    color: whitesmoke;
+    padding: 10px 15px;
+}
+
+.aQuest input[type="radio"]:checked + label{
+    background-color: #c3ccf8c3;
+}
+
+.aQuest input{
+    display: none;
+}
